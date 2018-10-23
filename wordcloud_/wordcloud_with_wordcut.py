@@ -1,16 +1,18 @@
 # -*- coding: utf-8 -*-
 
 import jieba
-from plot_img import plot_wordcloud 
+from plot_img import plot_wordcloud, read_file
 
  
-def get_word_list(raw_file):
-    text = (open(raw_file, 'r', encoding='utf-8')).read()
+def get_word_list(raw_file, encoding='gbk'):
+    text = read_file(raw_file, encoding)
     cut = jieba.cut(text)  # 分词
     word_lst = ' '.join(cut)
     return word_lst
 
 
 if __name__ == "__main__":
-    word_list = get_word_list('religion.txt')
+    word_list = get_word_list('tlbb.txt')  # religion
+    print(len(word_list))
+    # print(word_list)
     plot_wordcloud(word_list)
