@@ -4,6 +4,7 @@ import nltk
 
 # C:\\Users\\keefe\\AppData\\Roaming\\nltk_data
 # pos tag~词性标注：需要先下载语料库  punkt、averaged_perceptron_tagger
+nltk.download()
 nltk.download("punkt")
 nltk.download("averaged_perceptron_tagger")
 
