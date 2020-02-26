@@ -1,8 +1,9 @@
 
 ## Brief
 * nltk：natural language toolkit
-* wordcloud: 
-* gensim: get text simialry 
+* wordcloud: 词云
+* wordcut: 分词
+* gensim: get text simialry，文本相似度
 
 ## nltk
 * Install: pip install nltk

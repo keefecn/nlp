@@ -1,10 +1,10 @@
 #coding: utf-8  
-'''
+"""
 @summary: plot utils
 @since: 2018-10-22
 @author: Keefe Wu
 @see: 
-'''  
+""" 
 from matplotlib import pyplot as plt
 from wordcloud import WordCloud 
 
