@@ -12,7 +12,8 @@ def get_word_list(raw_file, encoding='gbk'):
 
 
 if __name__ == "__main__":
-    word_list = get_word_list('tlbb.txt')  # religion
+    # word_list = get_word_list('tlbb.txt')  # religion
+    word_list = get_word_list(r'E:\project\project-tools\blind_date\tmp.txt')  # religion
     print(len(word_list))
     # print(word_list)
     plot_wordcloud(word_list)
