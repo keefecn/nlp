@@ -26,9 +26,3 @@ nltk.download()
 * Usage:
 
 
-## business
-
-* company_complete 公司名补全，场景是公司名简称转全称。实现技术是分词+全名映射。示例：山东移动 ->  中国山东移动有限公司
-* company_correct  公司名纠错，场景是OCR纠错。实现技术是计算字符串距离。示例：山东移动有力公司 -> 山东移动有限公司
-* address_parse    中国地址解析，场景智能快递地址。实现技术。
-* pinyin  中文转拼音
